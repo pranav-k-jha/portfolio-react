@@ -9,7 +9,7 @@ import git from '../assets/git.png';
 import graphql from '../assets/graphql.png';
 import html from '../assets/html.png';
 import javascript from '../assets/javascript.png';
-import mu5 from '../assets/mu5.png';
+import tailwind from '../assets/tailwind.png';
 import node from '../assets/node.png';
 import python from '../assets/python.png';
 import react from '../assets/react.png';
@@ -47,7 +47,7 @@ export default {
   graphql,
   html,
   javascript,
-  mu5,
+  tailwind,
   node,
   python,
   react,
