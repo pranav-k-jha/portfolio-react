@@ -20,7 +20,7 @@
   align-items: center;
 
   img {
-    width: 90px;
+    width: 100px;
     height: 20;
 
     @media screen and (min-width: 2000px) {
@@ -33,7 +33,7 @@
 .app__navbar-links {
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
 
   list-style: none;
