@@ -88,7 +88,7 @@ const Work = () => {
                     <AiFillEye />
                   </motion.div>
                 </a>
-                <a href={work.codeLink} target="_blank" rel="noreferrer">
+                <a href={work.codeLink} target="_blank">
                   <motion.div
                     whileHover={{ opacity: [0, 1] }}
                     transition={{
