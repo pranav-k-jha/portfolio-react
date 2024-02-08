@@ -77,7 +77,7 @@ const Work = () => {
                 }}
                 className="app__work-hover app__flex"
               >
-                <a href={work.projectLink} target="_blank">
+                <a href={work.projectLink} target="_blank" rel="noreferrer">
                   <motion.div
                     whileHover={{ opacity: [0, 1] }}
                     transition={{
@@ -88,7 +88,7 @@ const Work = () => {
                     <AiFillEye />
                   </motion.div>
                 </a>
-                <a href={work.codeLink} target="_blank">
+                <a href={work.codeLink} target="_blank"rel="noreferrer">
                   <motion.div
                     whileHover={{ opacity: [0, 1] }}
                     transition={{
