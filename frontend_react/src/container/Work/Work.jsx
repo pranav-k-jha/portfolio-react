@@ -77,7 +77,7 @@ const Work = () => {
                 }}
                 className="app__work-hover app__flex"
               >
-                <a href={work.projectLink} target="_blank" rel="noreferrer">
+                <a href={work.projectLink} target="_blank">
                   <motion.div
                     whileHover={{ opacity: [0, 1] }}
                     transition={{
