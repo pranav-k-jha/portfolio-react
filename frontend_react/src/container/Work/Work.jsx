@@ -1,9 +1,21 @@
 import React from "react";
+import { useState, useEffect } from "react";
+import { AiFillEye, AiFillGithub } from "react-icons/ai";
+import { motion } from "framer-motion";
+
+import { AppWrap } from "../../wrapper";
+import { urlFor, client } from "../../client";
 import "./Work.scss";
 
 const Work = () => {
-  return <div style={{color: "red", background: "whitesmoke", margin: "2rem 4rem", padding: "2rem", borderRadius: "25px", boxShadow: "10px 5px 5px red"}}>
-  This website is currently under construction. Please check back later for updates and improvements. Thank you for your patience.</div>;
+  return (
+    <>
+      <h2 className="head-text">
+        My creative <span>Portfolio </span>Section
+      </h2>
+      <div className="app__work-filter"></div>
+    </>
+  );
 };
 
 export default Work;
