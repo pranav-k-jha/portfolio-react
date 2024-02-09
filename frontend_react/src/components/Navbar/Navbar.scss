@@ -16,8 +16,15 @@
 
 .app__navbar-logo {
   display: flex;
-  justify-content: flex-start;
+  flex: 0.1;
+  justify-content: space-around;
   align-items: center;
+  position: absolute;
+
+
+  font-family: fantasy;
+  // font-weight: 900;
+
 
   img {
     width: 100px;
@@ -27,6 +34,9 @@
       width: 180px;
       height: 40;
     }
+  }
+  @media screen and (max-width: 900px) {
+    position: relative;
   }
 }
 
