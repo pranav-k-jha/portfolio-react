@@ -13,7 +13,7 @@ const Footer = () => {
   }}
 >
   This website is currently under construction. Please check back later for
-  updates and improvements. Thank you for your patience.
+  updates and improvements. Thank you for your patience. <br /><br /><b style={{color: "black", marginLeft: "84%"}}>... Pranav Jha</b>
 </div>;
 };
 
