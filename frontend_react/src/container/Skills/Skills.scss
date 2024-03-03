@@ -35,7 +35,6 @@
 
 .app__skills-item {
   flex-direction: column;
-  text-align: center;
 
   margin: 1rem;
 
@@ -67,6 +66,7 @@
   p {
     font-weight: 500;
     margin-top: 0.5rem;
+    text-align: center;
   }
   @media screen and (min-width: 2000px) {
     margin: 1rem 2rem;
