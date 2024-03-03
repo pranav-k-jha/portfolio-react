@@ -55,13 +55,13 @@ const Skills = () => {
               </div>
               <motion.div className="app__skills-exp-works">
                 {experience.works.map((work) => (
-                  <React.Fragment key={work.name}>
+                  <>
                     <motion.div
-                      key={work.name}
                       whileInView={{ opacity: [0, 1] }}
                       transition={{ duration: 0.5 }}
                       className="app__skills-exp-work"
                       data-tooltip-id={work.name}
+                      key={work.name}
                     >
                       <h4 className="bold-text">{work.name}</h4>
                       <p className="p-text">{work.company}</p>
@@ -74,7 +74,7 @@ const Skills = () => {
                     >
                       {work.desc}
                     </ReactTooltip>
-                  </React.Fragment>
+                  </>
                 ))}
               </motion.div>
             </motion.div>
