@@ -11,7 +11,7 @@ const SocialMedia = () => {
         </a>
       </div>
       <div>
-      <a href="https://www.linkedin.com/in/pranavkjha24" style={{ cursor: "pointer" }}>
+      <a href="https://www.linkedin.com/in/pkrjha" style={{ cursor: "pointer" }}>
         <FaLinkedin />
         </a>
       </div>
