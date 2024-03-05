@@ -9,7 +9,7 @@ import "./Work.scss";
 const Work = () => {
   const [works, setWorks] = useState([]);
   const [filterWork, setFilterWork] = useState([]);
-  const [activeFilter, setActiveFilter] = useState("Web App");
+  const [activeFilter, setActiveFilter] = useState("Frontend");
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
 
   useEffect(() => {
@@ -17,7 +17,7 @@ const Work = () => {
 
     client.fetch(query).then((data) => {
       setWorks(data);
-      setFilterWork(data.filter((work) => work.tags.includes("Web App")));
+      setFilterWork(data.filter((work) => work.tags.includes("Frontend")));
     });
   }, []);
 
