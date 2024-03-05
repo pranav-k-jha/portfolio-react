@@ -50,7 +50,6 @@ const Work = () => {
           "Fullstack",
           "Backend",
           "Frontend",
-          "Web App",
           "Data Analysis",
           "SQL",
           "Python",
