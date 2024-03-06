@@ -45,12 +45,9 @@ const Work = () => {
       <div className="app__work-filter">
         {[
           "JS",
-          "React JS",
-          "UI/UX",
           "Fullstack",
           "Backend",
           "Frontend",
-          "Data Analysis",
           "SQL",
           "Python",
           "Java",
