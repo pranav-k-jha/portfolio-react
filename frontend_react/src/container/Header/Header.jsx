@@ -68,3 +68,8 @@ const Header = () => {
 };
 
 export default AppWrap(Header, "home");
+// export default AppWrap(
+//   MotionWrap(Skills, "app__skills"),
+//   "skills",
+//   "app__whitebg"
+// );
