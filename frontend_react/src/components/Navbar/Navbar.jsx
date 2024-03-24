@@ -9,10 +9,10 @@ const Navbar = () => {
 
   return (
     <nav className="app__navbar">
-      <div className="app__navbar-logo">
+      {/* <div className="app__navbar-logo">
         <span>PRANAV</span>
         <h4 style={{ color: "blue" }}>JHA</h4>
-      </div>
+      </div> */}
 
       <ul className="app__navbar-links">
         {["home", "about", "work", "skills", "contact"].map((item) => (
